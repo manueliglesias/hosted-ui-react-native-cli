@@ -40,17 +40,7 @@ Amplify.configure({
       responseType: 'code',
       // responseType: 'token',
 
-      // optional, for Cognito hosted ui specified options
-      options: {
-        // Indicates if the data collection is enabled to support Cognito advanced security features. By default, this flag is set to true.
-        AdvancedSecurityDataCollectionFlag: true,
-      },
-
-      urlOpener1: (url, _redirectUrl) => {
-        console.warn({ url, _redirectUrl });
-
-        return Linking.openURL(url);
-      }
+      // urlOpener: (url, _redirectUrl) => Linking.openURL(url)
     }
   }
 });
