@@ -8,8 +8,8 @@
     "clear:metro": "rm -rf node_modules; watchman watch-del-all; rm -rf $TMPDIR/haste-map-metro-*; rm -rf $TMPDIR/metro-cache/*"
   },
   "dependencies": {
-    "aws-amplify": "1.1.20-rn-hosted-ui.12",
-    "aws-amplify-react-native": "2.1.8-rn-hosted-ui.12",
+    "aws-amplify": "1.1.28",
+    "aws-amplify-react-native": "2.1.12",
     "react": "16.6.3",
     "react-native": "0.58.4"
   },
