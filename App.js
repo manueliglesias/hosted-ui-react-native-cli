@@ -8,7 +8,7 @@
  */
 
 import React from 'react';
-import { StyleSheet, Text, ScrollView, SafeAreaView, StatusBar, Button, Linking } from 'react-native';
+import { StyleSheet, Text, ScrollView, SafeAreaView, StatusBar, Button } from 'react-native';
 
 import { default as Amplify } from "aws-amplify";
 import { withOAuth } from "aws-amplify-react-native";
@@ -58,7 +58,7 @@ class App extends React.Component {
       signOut
     } = this.props;
 
-    return ( 
+    return (
       <SafeAreaView style={styles.safeArea}>
         {user && <Button title="Sign Out" onPress={signOut} />}
         <ScrollView contentContainerStyle={styles.scrollViewContainer}>
