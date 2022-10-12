@@ -12,7 +12,7 @@
     "aws-amplify-react": "2.3.11",
     "aws-amplify-react-native": "2.1.12",
     "react": "16.6.3",
-    "react-native": "0.58.4"
+    "react-native": "0.70.2"
   },
   "devDependencies": {
     "@types/lodash": "^4.14.136",
